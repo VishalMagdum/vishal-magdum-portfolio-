@@ -1,0 +1,15 @@
+.main {
+    background-image: url('../assets/backgroun_image.png');
+
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.title-side-line {
+    background: linear-gradient(0deg, #050816, #915eff);
+}
+
+.v12 {
+    z-index: 100 !important;
+}

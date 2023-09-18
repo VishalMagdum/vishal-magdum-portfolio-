@@ -1,0 +1,29 @@
+.nav-Link li {
+    color: gainsboro;
+
+}
+
+nav {
+    background-color: #070b1f;
+    /* background-color: aqua; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-Link li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-Link li:active {
+    color: blueviolet;
+}
+
+.nav-Link li>a:active {
+    color: blueviolet;
+}
+
+.toggleMenu {
+    background-color: rgb(54, 49, 49);
+}

@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #050816;
+  color: white;
+}
+
+.stars {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.progress-bar {
+  z-index: 10;
+  position: fixed;
+  top: 10;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: rgb(140, 19, 227);
+  transform-origin: 0%;
+  opacity: 80%;
+}
+
+.vertical-timeline-element-date {
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+}
+
+.insta {
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.git {
+  color: grey
+}
+
+.insta:hover {
+  scale: 1.2
+}
+
+.git:hover {
+  scale: 1.2
+}
+
+.linkdin {
+  color: #0a66c2
+}
+
+.linkdin:hover {
+  scale: 1.2
+}
+
+.contactNo {
+  color: grey;
+  font-family: fantasy
+}
+
+.copyRight {
+  font-family: fantasy
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
