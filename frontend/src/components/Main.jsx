@@ -29,7 +29,7 @@ function Main() {
                         initial={{ y: -50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.3, delay: 0.2, type: 'tween' }}
-                        className='text-5xl font-bold pt-3'>Hi, I am <span className='text-[#915eff]'>Vishal Magdum</span></motion.h1>
+                        className='text-5xl font-bold pt-3'>Hi, I am <span className='text-[#915eff]'>Vishal Magdum Updated</span></motion.h1>
                     <motion.p initial={{ y: -50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.3, delay: 0.4, type: 'tween' }}
