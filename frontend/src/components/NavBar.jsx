@@ -19,7 +19,7 @@ function NavBar() {
                     <li><a href='#skills'>Skills</a></li>
                     <li><a href='#projects'>Projects</a></li>
                     <li><a href='#contacts'>Contacts</a></li>
-                    <li><a href="https://drive.google.com/file/d/1yebDtUiFgTlQW2a4oQYAQZxTTGCEo-KP/view?usp=sharing" download="Vishal_Magdum_Resume.pdf" target='_blank'>Resume &nbsp; &nbsp;<i class="fa-solid fa-download"></i></a></li>
+                    <li><a href="https://drive.google.com/file/d/1yebDtUiFgTlQW2a4oQYAQZxTTGCEo-KP/view?usp=sharing" download="Vishal_Magdum_Resume.pdf" target='_blank' rel="noreferrer">Resume &nbsp; &nbsp;<i class="fa-solid fa-download"></i></a></li>
                 </ul>
 
                 <div className='sm:hidden flex flex-1 justify-end items-center'>
