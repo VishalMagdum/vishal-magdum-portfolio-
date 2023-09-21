@@ -1,12 +1,12 @@
-import React, { Suspense } from 'react'
+import React from 'react' //, { Suspense }
 import './Main.css'
 
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
+// import { Canvas } from '@react-three/fiber'
+// import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 import { ComputerCanvas } from './Animations/Computer'
 import { motion } from 'framer-motion'
 import MouseIcon from '@mui/icons-material/Mouse';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+// import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 function Main() {

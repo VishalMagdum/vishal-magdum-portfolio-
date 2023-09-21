@@ -1,10 +1,10 @@
 import React from 'react'
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
+import { VerticalTimeline, } from 'react-vertical-timeline-component' //VerticalTimelineElement
 import { motion } from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css'
 import ProjectCard from './ProjectCard'
 import './Projects.css'
-import { toast } from 'react-toastify'
+// import { toast } from 'react-toastify'
 function Projects({ projectData }) {
     const textVariant = (delay) => {
         return {
