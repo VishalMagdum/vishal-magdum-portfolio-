@@ -1,5 +1,5 @@
 import React from 'react'
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
+import { VerticalTimelineElement } from 'react-vertical-timeline-component' //VerticalTimeline,
 
 
 function ProjectCard({ project }) {
@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
             </div>}>
 
             <div className='flex justify-center items-center'>
-                <img className='h-[200px]' src={project.image}>
+                <img className='h-[200px]' alt='project snap' src={project.image}>
                 </img>
             </div>
             <p>
@@ -23,10 +23,10 @@ function ProjectCard({ project }) {
             </p>
             <div className='gap-[100px] flex justify-center items-center mt-5'>
                 <div className='border-solid border-2 border-indigo-500 hover:bg-violet-600 p-3 w-[150px] rounded-md flex justify-center items-center'>
-                    <a href={project.sourceCode} target='_blank'><i class="fa-brands fa-github px-1"></i> Source Code</a>
+                    <a href={project.sourceCode} target='_blank' rel="noreferrer"><i class="fa-brands fa-github px-1"></i> Source Code</a>
                 </div>
                 <div className='border-solid border-2 hover:bg-violet-600 border-indigo-500 p-3 w-[150px] rounded-md flex justify-center items-center'>
-                    <a href={project.liveLink} target='_blank'> <i class="fa-solid fa-globe px-3"></i> Demo</a>
+                    <a href={project.liveLink} target='_blank' rel="noreferrer"> <i class="fa-solid fa-globe px-3"></i> Demo</a>
                 </div>
             </div>
 
