@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react' //useEffect,
 import { Link } from 'react-router-dom'
 import Logo from '../assets/vshaal2.png'
 import './NavBar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 function NavBar() {
-    let [active, setActive] = useState('')
+    // let [active, setActive] = useState('')
     let [toggle, setToggle] = useState(false)
     return (
         <nav className='p-5'>
             <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
                 <Link to='/' className=' flex items-center gap-2' onClick={() => {
-                    setActive("")
+                    // setActive("")
                     window.scroll(0, 0)
                 }}><img src={Logo} alt='logo' className='w-25 h-9 object-contain' /></Link>
                 <ul className='list-none hidden sm:flex flex-row gap-10 nav-Link'>

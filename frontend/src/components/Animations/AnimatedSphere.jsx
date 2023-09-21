@@ -1,5 +1,5 @@
 import React from "react";
-import { Sphere, CubicBezierLine, Ring, Circle, MeshDistortMaterial } from '@react-three/drei'
+import { Circle, MeshDistortMaterial } from '@react-three/drei' //Sphere, CubicBezierLine, Ring
 
 export default function AnimatedSphere() {
     return (

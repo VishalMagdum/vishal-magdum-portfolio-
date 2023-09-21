@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 import { motion } from 'framer-motion'
-import Tilt from 'react-tilt'
+// import Tilt from 'react-tilt'
 import './About.css'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'

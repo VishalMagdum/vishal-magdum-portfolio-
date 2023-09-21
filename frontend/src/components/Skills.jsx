@@ -104,7 +104,7 @@ function Skills() {
                         transition={{ duration: 0.3, delay: i * 0.2 }}
                     >
                         <div>
-                            <img className="h-[40px]" src={skill.image} style={{ color: skill.color }}></img>
+                            <img className="h-[40px]" alt={skill.title} src={skill.image} style={{ color: skill.color }}></img>
                         </div>
                         <div>
                             <h4 className='px-2'>{skill.title}</h4>
