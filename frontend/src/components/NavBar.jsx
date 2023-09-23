@@ -10,10 +10,12 @@ function NavBar() {
     return (
         <nav className='p-5'>
             <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-                <Link to='/' className=' flex items-center gap-2' onClick={() => {
+                <Link to='/' className='flex items-center gap-2' onClick={() => {
                     // setActive("")
                     window.scroll(0, 0)
-                }}><img src={Logo} alt='logo' className='w-25 h-9 object-contain' /></Link>
+                }}><img src={Logo} alt='logo' className='w-25 h-9 object-contain' />
+                </Link>
+
                 <ul className='list-none hidden sm:flex flex-row gap-10 nav-Link'>
                     <li><a href='#about'>About</a></li>
                     <li><a href='#skills'>Skills</a></li>

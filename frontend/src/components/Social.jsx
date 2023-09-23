@@ -16,7 +16,6 @@ function Social() {
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ delay: 0.2, type: "tween" }}
                 className='flex gap-5'>
-                <a href='https://www.instagram.com/vshaal_5592.exe/' target='_blank' rel="noreferrer"><i class="insta text-[30px] fa-brands fa-instagram"></i></a>
                 <a href='https://github.com/VishalMagdum' target='_blank' rel="noreferrer"><i class="git text-[30px] fa-brands fa-github"></i></a>
                 <a href='https://www.linkedin.com/in/vishal-magdum-893166228' target='_blank' rel="noreferrer"><i class="linkdin text-[30px] fa-brands fa-linkedin"></i></a>
             </motion.div>

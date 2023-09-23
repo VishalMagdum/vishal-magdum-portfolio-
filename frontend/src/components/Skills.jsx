@@ -17,6 +17,7 @@ import Tailwind from '../assets/skill/tailwind.png'
 import VSCode from '../assets/skill/vscode.png'
 import Github from '../assets/skill/github.png'
 import Postman from '../assets/skill/postman.png'
+import NextJs from '../assets/skill/nextjs.png'
 import MaterialUI from '../assets/skill/matrialui.png'
 function Skills() {
     let skillList = [
@@ -44,6 +45,10 @@ function Skills() {
         {
             title: "React.js",
             image: ReactJS
+        },
+        {
+            title: "Next.js",
+            image: NextJs
         },
         {
             title: "Mongodb",

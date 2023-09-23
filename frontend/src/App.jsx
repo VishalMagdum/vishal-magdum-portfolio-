@@ -13,6 +13,7 @@ import { ToastContainer } from 'react-toastify'
 import axios from 'axios'
 import 'react-toastify/dist/ReactToastify.css'
 import { useEffect, useState } from 'react';
+import Experience from './components/Experience';
 function App() {
   const { scrollYProgress } = useScroll()
   let [projectData, setProjectData] = useState()
@@ -37,6 +38,7 @@ function App() {
         <About id='about' />
         <Skills />
         <Projects projectData={projectData} />
+        <Experience />
         <div className='relative z-0 px-10'>
           <Contact />
           <StarsCanvas />

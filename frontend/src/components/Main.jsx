@@ -29,11 +29,21 @@ function Main() {
                         initial={{ y: -50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.3, delay: 0.2, type: 'tween' }}
-                        className='text-5xl font-bold pt-3'>Hi, I am <span className='text-[#915eff]'>Vishal Magdum Updated</span></motion.h1>
+                        className='text-5xl font-bold pt-3'>Hi, I am <span className='text-[#915eff]'>Vishal Magdum</span></motion.h1>
                     <motion.p initial={{ y: -50, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ duration: 0.3, delay: 0.4, type: 'tween' }}
                         className='pt-3 text-indigo-500'>Full-Stack Web Developer</motion.p>
+
+                    <motion.div
+                        initial={{ y: -50, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.3, delay: 0.6, type: 'tween' }}
+                        className='flex gap-5 mt-1'>
+                        <a href='https://github.com/VishalMagdum' target='_blank' rel="noreferrer"><i class="git text-[30px] fa-brands fa-github"></i></a>
+                        <a href='https://www.linkedin.com/in/vishal-magdum-893166228' target='_blank' rel="noreferrer"><i class="linkdin text-[30px] fa-brands fa-linkedin"></i></a>
+                    </motion.div>
+
                 </div>
 
             </div>
