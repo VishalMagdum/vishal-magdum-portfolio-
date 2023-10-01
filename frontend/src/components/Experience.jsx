@@ -3,7 +3,7 @@ import "./Experience.css"
 
 function Experience() {
     return (
-        <div>
+        <div id='experience'>
             <div className='projectHeadling mt-10 px-[50px]'>
                 <h2 className=' text-5xl' style={{ fontFamily: "Arial, Helvetica, sans-serif", fontWeight: 700 }}>Experience</h2>
                 <p className='mt-4 text-xl text-[#9e9e9e]'>My experience till now</p>

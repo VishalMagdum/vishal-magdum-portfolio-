@@ -20,6 +20,7 @@ function NavBar() {
                     <li><a href='#about'>About</a></li>
                     <li><a href='#skills'>Skills</a></li>
                     <li><a href='#projects'>Projects</a></li>
+                    <li><a href='#experience'>Experience</a></li>
                     <li><a href='#contacts'>Contacts</a></li>
                     <li><a href="https://drive.google.com/file/d/1YlM2gticI_20jWbNxmycPtw0iSQxmxDx/view?usp=drive_link" download="Vishal_Magdum_Resume.pdf" target='_blank' rel="noreferrer">Resume &nbsp; &nbsp;<i class="fa-solid fa-download"></i></a></li>
                 </ul>
@@ -31,6 +32,7 @@ function NavBar() {
                             <li><a href='#about'>About</a></li>
                             <li><a href='#skills'>Skills</a></li>
                             <li><a href='#projects'>Projects</a></li>
+                            <li><a href='#experience'>Experience</a></li>
                             <li><a href='#contacts'>Contacts</a></li>
                         </ul>
                     </div>
