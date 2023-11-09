@@ -57,17 +57,20 @@ function Main() {
             </Canvas> */}
 
 
-            <ComputerCanvas />
 
-            <div className='w-full -mt-40 z-[100] flex flex-col justify-center items-center'>
-                <a href='#about'>
-                    <motion.div
-                        animate={{ y: [0, 1, 0] }}
-                        transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}><MouseIcon /></motion.div>
-                    <motion.div
 
-                        animate={{ y: [0, 15, 0] }}
-                        transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}><KeyboardDoubleArrowDownIcon /></motion.div></a>
+            <div className='w-full z-[100] flex flex-col justify-center items-center'>
+                <div className='mt-[500px] z-[100] '>
+                    <a href='#about'>
+                        <motion.div
+                            animate={{ y: [0, 1, 0] }}
+                            transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}><MouseIcon /></motion.div>
+                        <motion.div
+
+                            animate={{ y: [0, 15, 0] }}
+                            transition={{ duration: 1.5, repeat: Infinity, repeatType: 'loop' }}><KeyboardDoubleArrowDownIcon /></motion.div></a>
+
+                </div>
             </div>
 
         </section>
